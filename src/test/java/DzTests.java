@@ -21,7 +21,7 @@ public class DzTests {
     }
 
     @Test
-    void GitHubSearchJunit5 () {
+    void GitHubSearchSelenideWikiJunit5 () {
         open("/selenide/selenide");
         $("#wiki-tab").click();
         $("#wiki-pages-filter").setValue("SoftAssertions");
